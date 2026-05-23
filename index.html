@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Clientes</title>
+    <style>
+    textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+    background-color: #f9f9f9;
+}
+
+textarea:focus{
+    border-color: #007BFF;
+    outline: none;
+    background-color: white;
+}
+
+</style>
 </head>
 
 <body>
@@ -137,7 +156,12 @@
 <h3>Comentarios</h3>
 
 <label>Observações:</label><br>
-<textarea rows="10" required></textarea>
+<textarea 
+rows="6" 
+cols="50"
+placeholder="Digite suas observações aqui..."
+required>
+</textarea>
 
 <br><br>
 
